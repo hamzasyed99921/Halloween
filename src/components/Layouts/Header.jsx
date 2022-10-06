@@ -39,22 +39,22 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/contact">
+                  <Link className="nav-link text-white" to="#">
                     Tokenomics
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/contact">
+                  <Link className="nav-link text-white" to="#">
                     Roadmap
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/soccer">
+                  <Link className="nav-link text-white" to="#">
                     Documents
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/contact">
+                  <Link className="nav-link text-white" to="#">
                     Faqs
                   </Link>
                 </li>
@@ -63,10 +63,11 @@ const Header = () => {
                     className="nav-link  text-white"
                     style={{
                       border: "3px solid black",
-                      padding: "4px 10px",
+                      padding: "4px 8px",
                       borderRadius: "20px",
+                      fontSize: '13px'
                     }}
-                    to="/contact"
+                    to="#"
                   >
                     MINT FLOH RAFFLE NFT
                   </Link>
