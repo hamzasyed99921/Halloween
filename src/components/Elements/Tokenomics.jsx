@@ -47,7 +47,7 @@ const Tokenomics = () => {
           </div>
           <div className="row mt-4 ">
             <div className="col-md-3 col-12">
-              <div className="card" style={{ width: "23rem", height: '35rem' }}>
+              <div className="card" style={{ maxWidth: "370px"}}>
                 <FaDollarSign className="my-4" size={90} color={'white'} />
                 <div className="card-body">
                   <h5 className="card-title">$BUSD Rewards</h5>
@@ -63,7 +63,7 @@ const Tokenomics = () => {
               </div>
             </div>
             <div className="col-md-3 col-12">
-              <div className="card" style={{ width: "23rem", height: '35rem' }}>
+              <div className="card" style={{ maxWidth: "370px"}}>
                 <HiSpeakerphone className="my-4" size={90} color={'white'}/>
                 <div className="card-body">
                   <h5 className="card-title">Marketing</h5>
@@ -79,7 +79,7 @@ const Tokenomics = () => {
               </div>
             </div>
             <div className="col-md-3 col-12">
-              <div className="card" style={{ width: "23rem", height: '35rem' }}>
+              <div className="card" style={{ maxWidth: "370px"}}>
                 <FaWater className="my-4 mx-3" size={90} color={'white'}/>
                 <div className="card-body">
                   <h5 className="card-title">Liquidity Pool</h5>
@@ -96,7 +96,7 @@ const Tokenomics = () => {
               </div>
             </div>
             <div className="col-md-3 col-12">
-              <div className="card" style={{ width: "22rem", height: '35rem' }}>
+              <div className="card" style={{ maxWidth: "370px"}}>
                 <RiAdminFill className="my-4" size={90} color={'white'}/>
                 <div className="card-body">
                   <h5 className="card-title">Anti-Whale Mechanism</h5>

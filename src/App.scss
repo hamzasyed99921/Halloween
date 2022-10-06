@@ -7,6 +7,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins';
+
+    // border:  2px solid green;
 }
 
 .header{
@@ -50,6 +52,12 @@
         padding: 67px 0px 74px 0px;
         border: 1px solid #745F98;
         border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .left_heading{
+        font-size: 55px;
     }
 }
 
