@@ -46,14 +46,14 @@ const Documents = () => {
               </div>
 
               <div className="items d-flex justify-content-between mb-5">
-                <div className="icon_txt">
+                <div className="icon_txt mb-2">
                   <TiTick className="icon" size={35} />
                   <span className="">KYC</span>
                 </div>
-                <div className="icon_txt">
+                <div className="icon_txt mb-2">
                   <TiTick className="icon" size={35} /> <span>Audit</span>
                 </div>
-                <div className="icon_txt">
+                <div className="icon_txt mb-2">
                   <TiTick className="icon" size={35} /> <span>Whitepaper</span>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Documents = () => {
                 </Dropdown>
               </div>
             </div>
-            <div className="col-md-5 col-12">
+            <div className="col-md-5 col-12 mt-4">
                 <div className="doc_img text-center">
                     <img src="assets/images/document.png" alt="" />
                 </div>

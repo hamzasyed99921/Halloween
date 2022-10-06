@@ -68,7 +68,7 @@ const Faqs = () => {
             <div className="col-md-6 col-12 mt-5">
               <Faq data={data} styles={styles} config={config} />
             </div>
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12 mt-5">
                 <div className="text-center faq_img"><img src="assets/images/question.png" alt="" /></div>
             </div>
           </div>

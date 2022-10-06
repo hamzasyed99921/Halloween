@@ -54,7 +54,7 @@ const Section = () => {
               </div>
             </div>
             <div className="col-md-7 col-12">
-                <div className="text-center right_img"> 
+                <div className="text-center right_img mt-4"> 
                     <img src="assets/images/logo.png" alt="" />
                 </div>
             </div>

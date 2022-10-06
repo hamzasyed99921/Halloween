@@ -271,4 +271,17 @@
     .left_heading{
         font-size: 2rem !important;
     }
+
+    .documnt_txt h2{
+        font-size: 2rem !important;
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon_txt span{
+        font-size: 14px !important;
+    }
 }
