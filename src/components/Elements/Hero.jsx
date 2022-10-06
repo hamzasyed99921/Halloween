@@ -35,7 +35,7 @@ const Hero = () => {
                     <Button variant="contained" className="mr-4" style={{backgroundColor: '#1da1f2' , padding: '12px 2px'}}><TwitterIcon/></Button>
                     <Button variant="contained"  style={{backgroundColor: "#745F98", padding: '12px 2px', marginLeft: '10px'}}><TelegramIcon/></Button>
                   </div>
-                  <p className="text-center mt-5 text-white" style={{fontSize: '16px', fontWeight: '600'}}>Contract : 0x2c0e76dade015bc390a13c1b80cc1bafd9edd326</p>
+                  <p className="text-center mt-5 text-white" style={{fontSize: '14px', fontWeight: '600'}}>Contract : 0x2c0e76dade015bc390a13c1b80cc1bafd9edd326</p>
                 </div>
               </div>
             </div>
