@@ -12,6 +12,7 @@ import { Button, Dropdown, Menu, message } from "antd";
 
 const menu = (
   <Menu
+    style={{backgroundColor: '#f27022'}}
     onClick={handleMenuClick}
     items={[
       {
@@ -59,7 +60,7 @@ const Documents = () => {
               </div>
               <div>
                 <Dropdown overlay={menu}>
-                  <Button style={{backgroundColor: '#f27022',border: 'none', color: 'white', fontSize: '18px' }}>
+                  <Button style={{backgroundColor: '#f27022',border: 'none', borderRadius: '30px', color: 'white',padding: "20px 20px" ,height: '60px', fontSize: '14px' }}>
                     {/* <Space> */}
                       Download
                       <DownOutlined />
