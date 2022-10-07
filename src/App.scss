@@ -15,6 +15,11 @@
     .navbar-brand{
         width: 20%;
     }
+    #header
+    
+    {
+        background-color: transparent;
+    }
     .navbar-nav{
         width: 80%;
         margin-left: auto;
@@ -136,7 +141,7 @@
         
     }
     .card:hover{
-        background-color: rgb(255, 162, 162);
+        background-color: #e06f6f;
     }
 }
 
@@ -160,6 +165,33 @@
             margin: 16px 0 62px;
         }
     }
+
+    .roadmap_card{
+        h3{
+            font-size: 27px;
+            color:  #333333;
+        }
+        ul li{
+            list-style: square;
+            font-size: 17px;
+            color:  #6d747c;
+        }
+    }
+     .vertical-timeline:before {
+        background-color: #000;
+        border: 3px dashed #f27022;
+        width: 0;
+    }
+//     .vertical-timeline-element-icon svg {
+//     display: block;
+//     height: 24px;
+//     left: 50%;
+//     margin-left: -12px;
+//     margin-top: -12px;
+//     position: relative;
+//     top: 50%;
+//     width: 24px;
+// }
 }
 
 .documents{

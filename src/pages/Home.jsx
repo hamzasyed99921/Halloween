@@ -1,6 +1,6 @@
 import React from 'react'
 import Documents from '../components/Elements/Documents'
-import Faqs from '../components/Elements/Faqs'
+import Faqs from '../components/Utils/Faqs'
 import Hero from '../components/Elements/Hero'
 import Roadmap from '../components/Elements/Roadmap'
 import Section from '../components/Elements/Section'

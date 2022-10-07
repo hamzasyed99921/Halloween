@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="row">
               <div className="col-md-6 col-12 d-flex align-items-center">
                 <div>
-                  <p className="left_heading">Halloween Floki</p>
+                  <p className="left_heading" data-aos="zoom-in" data-aos-duration="1000">Halloween Floki</p>
                 </div>
               </div>
               <div className="col-md-6 col-12">

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <nav className="navbar fixed-top navbar-expand-lg " id="top">
+        <nav className="navbar fixed-top navbar-expand-lg " id="header">
           <div className="container-fluid ">
             <Link className=" navbar-brand text-white" to="/">
               <img
@@ -14,7 +14,7 @@ const Header = () => {
               />
             </Link>
             <button
-              className="navbar-toggler "
+              className="navbar-toggler text-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarScroll"
@@ -22,10 +22,10 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon " />
+              <span className="navbar-toggler-icon  " />
             </button>
             <div
-              className="collapse navbar-collapse text-center "
+              className="collapse navbar-collapse text-center  "
               id="navbarScroll"
             >
               <ul className="navbar-nav  my-2 my-lg-0 navbar-nav-scroll  ">
