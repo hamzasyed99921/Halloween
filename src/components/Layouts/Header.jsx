@@ -14,7 +14,7 @@ const Header = () => {
               />
             </Link>
             <button
-              className="navbar-toggler text-white"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarScroll"
@@ -31,7 +31,7 @@ const Header = () => {
               <ul className="navbar-nav  my-2 my-lg-0 navbar-nav-scroll  ">
                 <li className="nav-item">
                   <Link
-                    className="nav-link active text-white"
+                    className="nav-link text-white"
                     aria-current="page"
                     to="/"
                   >
